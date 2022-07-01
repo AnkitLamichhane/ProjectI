@@ -1,0 +1,38 @@
+.bg-red{
+    background-color: #ea272d !important;
+}
+.clr-wh{
+    color: white !important;
+}
+.bg-bl{
+    background-color: black !important;
+}
+.hero{
+    display: flex;
+    background-color: rgb(220, 165, 174);
+    padding: 5%;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 992px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
